@@ -1,0 +1,641 @@
+﻿
+
+
+.body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 200px;
+    background: url('/assets/foodie.jpg');
+}
+
+    .hero-section h1 {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    .hero-section span {
+        color: orange;
+    }
+
+.menu-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu-card {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+    .menu-card:hover {
+        transform: scale(1.05);
+    }
+
+    .menu-card img {
+        width: 100%;
+    }
+
+.menu-title {
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: black;
+}
+
+.quote-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+    .quote-section h3 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+.quote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.recipe-description {
+    max-width: 600px;
+    margin: auto;
+    color: #ddd;
+}
+
+.brand-partners-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 2px solid white;
+}
+
+
+    .brand-partners-section h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: orange;
+        font-family: 'Bodoni MT Black';
+    }
+
+.brand-partner {
+    margin-bottom: 20px;
+    background-color:;
+}
+
+    .brand-partner h3 {
+        font-size: 1.8rem;
+    }
+
+    .brand-partner p {
+        font-size: 1.2rem;
+    }
+
+.swiggy-paragraph {
+    color: orange;
+}
+
+.uber-eats-heading {
+    color: green;
+}
+
+.uber-eats-paragraph {
+    color: green;
+}
+/* RAMEN*/
+/* styles.css */
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.menu-item {
+    width: 500px;
+    background: rgba(128, 128, 128, 0.25); /* Gray transparent background */
+    backdrop-filter: blur(10px); /* Glassmorphism blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Subtle border */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Soft shadow */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+    .menu-item img {
+        max-width: 100%;
+        border-radius: 30px;
+    }
+
+    .menu-item:hover {
+        transform: scale(1.02);
+    }
+
+    .menu-item h1 {
+        font-size: 1.8rem;
+        color: orange;
+        margin-bottom: 10px;
+    }
+
+    .menu-item h2 {
+        font-size: 1.2rem;
+        color: floralwhite;
+    }
+
+    .menu-item p {
+        font-size: 1rem;
+        color: lightgray;
+    }
+
+/* Order Section */
+.order-section {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    padding: 0 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .order-section label {
+        font-size: 1rem;
+        margin: 5px 0;
+    }
+
+    .order-section select {
+        padding: 5px;
+        font-size: 1rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    /* Button Styling */
+    .order-section .btn-add {
+        background: #d32f2f;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+
+        .order-section .btn-add:hover {
+            background: #b71c1c;
+        }
+
+.add_to_cart_btn {
+    border: none;
+    background: none;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+
+/* Background Styles */
+.menu-background {
+    background: url('menu4.jpg') center/cover no-repeat;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+.menu2-background {
+    background: url('BUG.jpg') center/cover no-repeat;
+}
+
+.menu3-background {
+    background: url('piz.jpg') center/cover no-repeat;
+}
+
+.menu4-background {
+    background: url('cake.jpg') center/cover no-repeat;
+}
+
+.extras-section {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+
+
+/*blog */
+/* Container for the blog content */
+.blog-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 30px; /* Increase space between image and text */
+    margin: 30px; /* Add more margin around the container */
+    max-width: 1200px; /* Optional: Limit the maximum width of the container */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto;
+}
+
+/* Style for the image */
+.blog-image {
+    max-width: 500px; /* Increase the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Style for the text content */
+.blog-text {
+    flex: 1; /* Allow the text to take up remaining space */
+    font-size: 1.2rem; /* Increase the font size of the text */
+    line-height: 1.6; /* Improve readability with more line spacing */
+}
+
+    .blog-text h2 {
+        font-size: 2.5rem; /* Larger font size for the heading */
+        margin-bottom: 20px; /* Add more space below the heading */
+    }
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column; /* Stack image and text on small screens */
+        align-items: center; /* Center-align items */
+    }
+
+    .blog-image {
+        max-width: 100%; /* Make the image full width on small screens */
+    }
+
+    .blog-text {
+        font-size: 1rem; /* Slightly smaller font size on small screens */
+    }
+
+        .blog-text h2 {
+            font-size: 2rem; /* Smaller heading size on small screens */
+        }
+}
+/* Container2 for the blog content */
+.blog-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 40px; /* Increase space between text and image */
+    margin: 40px auto; /* Add margin around the container and center it */
+    max-width: 1200px; /* Limit the maximum width of the container */
+    padding: 20px; /* Add padding inside the container */
+}
+
+/* Style for the image on the right */
+.blog-image-right {
+    max-width: 400px; /* Increase the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    order: 2; /* Move the image to the right */
+}
+
+/* Style for the text on the left */
+.blog-text-left {
+    flex: 1; /* Allow the text to take up remaining space */
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    line-height: 1.6; /* Improve readability with more line spacing */
+    order: 1; /* Move the text to the left */
+}
+
+    .blog-text-left h2 {
+        font-size: 2.2rem; /* Larger font size for the heading */
+        margin-bottom: 20px; /* Add more space below the heading */
+        color: white; /* Darker text color for the heading */
+    }
+
+    .blog-text-left ul {
+        list-style-type: disc; /* Use bullet points for the list */
+        padding-left: 20px; /* Add some padding to the list */
+        margin-top: 10px; /* Add space above the list */
+    }
+
+    .blog-text-left li {
+        margin-bottom: 10px; /* Add space between list items */
+    }
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column; /* Stack text and image on small screens */
+        align-items: center; /* Center-align items */
+    }
+
+    .blog-image-right {
+        max-width: 100%; /* Make the image full width on small screens */
+        order: 1; /* Image on top in mobile view */
+    }
+
+    .blog-text-left {
+        order: 2; /* Text below the image in mobile view */
+        font-size: 1rem; /* Slightly smaller font size on small screens */
+    }
+
+        .blog-text-left h2 {
+            font-size: 1.8rem; /* Smaller heading size on small screens */
+            color: white;
+        }
+}
+/*blog */
+/* Container for the blog content */
+.blog-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 30px; /* Increase space between image and text */
+    margin: 30px; /* Add more margin around the container */
+    max-width: 1200px; /* Optional: Limit the maximum width of the container */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto;
+}
+
+/* Style for the image */
+.blog-image {
+    max-width: 500px; /* Increase the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Style for the text content */
+.blog-text {
+    flex: 1; /* Allow the text to take up remaining space */
+    font-size: 1.2rem; /* Increase the font size of the text */
+    line-height: 1.6; /* Improve readability with more line spacing */
+}
+
+    .blog-text h2 {
+        font-size: 2.5rem; /* Larger font size for the heading */
+        margin-bottom: 20px; /* Add more space below the heading */
+    }
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column; /* Stack image and text on small screens */
+        align-items: center; /* Center-align items */
+    }
+
+    .blog-image {
+        max-width: 100%; /* Make the image full width on small screens */
+    }
+
+    .blog-text {
+        font-size: 1rem; /* Slightly smaller font size on small screens */
+    }
+
+        .blog-text h2 {
+            font-size: 2rem; /* Smaller heading size on small screens */
+        }
+}
+/* Container4 for the blog content */
+.blog-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 40px; /* Increase space between text and image */
+    margin: 40px auto; /* Add margin around the container and center it */
+    max-width: 1200px; /* Limit the maximum width of the container */
+    padding: 20px; /* Add padding inside the container */
+}
+
+/* Style for the image on the right */
+.blog-image-right {
+    max-width: 400px; /* Increase the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    order: 2; /* Move the image to the right */
+}
+
+/* Style for the text on the left */
+.blog-text-left {
+    flex: 1; /* Allow the text to take up remaining space */
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    line-height: 1.6; /* Improve readability with more line spacing */
+    order: 1; /* Move the text to the left */
+}
+
+    .blog-text-left h2 {
+        font-size: 2.2rem; /* Larger font size for the heading */
+        margin-bottom: 20px; /* Add more space below the heading */
+        color: white; /* Darker text color for the heading */
+    }
+
+    .blog-text-left ul {
+        list-style-type: disc; /* Use bullet points for the list */
+        padding-left: 20px; /* Add some padding to the list */
+        margin-top: 10px; /* Add space above the list */
+    }
+
+    .blog-text-left li {
+        margin-bottom: 10px; /* Add space between list items */
+    }
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column; /* Stack text and image on small screens */
+        align-items: center; /* Center-align items */
+    }
+
+    .blog-image-right {
+        max-width: 100%; /* Make the image full width on small screens */
+        order: 1; /* Image on top in mobile view */
+    }
+
+    .blog-text-left {
+        order: 2; /* Text below the image in mobile view */
+        font-size: 1rem; /* Slightly smaller font size on small screens */
+    }
+
+        .blog-text-left h2 {
+            font-size: 1.8rem; /* Smaller heading size on small screens */
+            color: white;
+        }
+}
+
+.order-success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    width: 100%; /* Full width */
+    text-align: center;
+    background-color: #f8f9fa; /* Light background for contrast */
+    font-family: Arial, sans-serif;
+}
+
+    .order-success h1 {
+        color: orange;
+        font-size: 5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif margin-bottom: 10px;
+        font: 900;
+        font-weight: 900;
+    }
+
+    .order-success p {
+        font-size: 2.4rem;
+        color: #555;
+    }
+
+.price-label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 94, 0);
+    font-size: large;
+}
+
+/* Cart Page Dark Theme */
+body {
+    background: #000; /* Full black background */
+    color: white; /* White text */
+    font-family: Arial, sans-serif;
+}
+
+/* Cart Container */
+.cart-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background: #111; /* Dark gray for contrast */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 165, 0, 0.3); /* Orange glow */
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #ff6600; /* Orange title */
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+/* Cart Container */
+.cart-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background: #111; /* Dark gray for contrast */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 165, 0, 0.3); /* Orange glow */
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #ff6600; /* Orange title */
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #222; /* Dark gray table */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .cart-table th, .cart-table td {
+        padding: 12px;
+        border: 1px solid #444; /* Dark borders */
+        text-align: center;
+    }
+
+    .cart-table th {
+        background: #ff6600; /* Orange header */
+        color: white;
+        font-size: 18px;
+    }
+
+    .cart-table td {
+        font-size: 16px;
+        color: #ddd; /* Light gray text */
+    }
+
+/* Checkout Button */
+.checkout-button {
+    background: #ff6600;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+    .checkout-button:hover {
+        background: #cc5500; /* Darker orange on hover */
+    }
+
+.order-checkbox {
+    display: flex;
+    gap: 7px;
+}
+
+
+/* Order Button */
+.order-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background: #ff6600; /* Orange button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .order-btn:hover {
+        background: #cc5500; /* Darker orange on hover */
+        box-shadow: 0px 0px 10px #ff6600;
+    }

@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="order.Site1" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzon</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <style>
+        
+        body {
+            background-color: #111; /* Dark black background */
+            color: white; 
+            font-family: Arial, sans-serif; 
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/home.aspx">FeastFlow</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <asp:HyperLink ID="lnkHome" runat="server" NavigateUrl="~/home.aspx" CssClass="nav-link">Home</asp:HyperLink>
+                        </li>
+                        <li class="nav-item">
+                            <asp:HyperLink ID="lnkMenu" runat="server" NavigateUrl="~/menu.aspx" CssClass="nav-link">Menu</asp:HyperLink>
+                        </li>
+                        <li class="nav-item">
+                            <asp:HyperLink ID="lnkBlog" runat="server" NavigateUrl="~/blog.aspx" CssClass="nav-link">Blog</asp:HyperLink>
+                        </li>
+                        <li class="nav-item">
+                            <asp:HyperLink ID="lnkCart" runat="server" NavigateUrl="~/cart.aspx" CssClass="nav-link">Cart</asp:HyperLink>
+                        </li>
+                        <li class="nav-item">
+                            <asp:HyperLink ID="linkOrders" runat="server" NavigateUrl="~/orders.aspx" CssClass="nav-link">Orders    </asp:HyperLink>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="lnkLogin" runat="server" CssClass="nav-link" OnClick="lnkLogin_Click"></asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <div class="quote-section">
+            <h3>Welcome to Quality Food</h3>
+            <div class="quote">Delicious, simple to prepare recipes that celebrate fresh seasonal ingredients, and the joy of cooking and eating.</div>
+            <div class="author">— Margaret</div>
+            <div class="recipe-description">This month I’m featuring recipes that highlight fruit as a main ingredient. With natural sweetness and beautiful flavours, whatever fruit is in season should be eaten fresh, but also used sensitively to create both sweet and savoury dishes. Here’s a sample of my favourites.</div>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
