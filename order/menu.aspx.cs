@@ -89,7 +89,7 @@
                 }
             }
 
-            // Add new item
+            // Add new item 
             if (!itemExists)
             {
                 var newItem = new Dictionary<string, string>
